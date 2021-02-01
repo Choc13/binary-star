@@ -1,0 +1,41 @@
+# Ignore everything
+*
+
+# Don't ignore directories, so we can recurse into them
+!*/
+
+# Except these directories that we always want to ignore
+**/.ionide
+**/.next
+**/bin
+**/obj
+**/out
+**/node_modules
+
+# Except
+!.editorconfig
+!.gitattributes
+!.gitignore
+!.gitconfig
+!.env.production
+!*.cs
+!*.csproj
+!*.DotSettings
+!*.fs
+!*.fsproj
+!*.ico
+!*.js
+!*.jsx
+!*.json
+!*.less
+!*.md
+!*.png
+!*.props
+!*.ruleset
+!*.sln
+!*.sh
+!*.toml
+!*.ts
+!*.tsx
+!*.yml
+!yarn.lock
